@@ -1,8 +1,8 @@
 {
   "name": "checkmate",
   "version": "0.0.1",
-  "description": "Utility to check FQDNs / IP-addresses at regular interval to ensure uptime.",
-  "main": "app.js",
+  "description": "Ensure uptime, expected-responses, and more, from domains (FQDNs) and IP-addresses at specified interval(s).",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,11 @@
     "url": "https://github.com/cardoni/checkmate/issues"
   },
   "homepage": "https://github.com/cardoni/checkmate#readme",
-  "engine": "node >= 4.2.1"
+  "engine": "node >= 6.9.4",
+  "dependencies": {
+    "coffee-script": "^1.12.2"
+  },
+  "devDependencies": {
+    "json": "^9.0.4"
+  }
 }
